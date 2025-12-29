@@ -1,0 +1,199 @@
+(linyao) GeneralZ@GeneralZ-Aalto:~/Linyao$ /media/GeneralZ/Storage/ProgramFiles/miniconda3/envs/linyao/bin/python /home/GeneralZ/Linyao/query_tables.py
+According to the table, Google's operating margin for Q1 2024 was **32%**.
+To calculate the percentage of Net income as a proportion of Revenues, we need to divide Net income by Revenues and multiply by 100.
+
+For Q1 2024:
+
+Net income: $23,662
+Revenues: $80,539
+
+Percentage = ($23,662 ÷ $80,539) × 100 ≈ 29.43%
+
+So, in Q1 2024, Net income is approximately 29.43% of Revenues.
+
+(linyao) GeneralZ@GeneralZ-Aalto:~/Linyao$ /media/GeneralZ/Storage/ProgramFiles/miniconda3/envs/linyao/bin/python /home/GeneralZ/Linyao/query_tables_v1.py
+--- Question 1: What were the Google Cloud revenues in Q1 2023 and Q1 2024? ---
+According to the provided tables, Google Cloud's revenues in Q1 2023 were $69,787 million.
+
+--- Question 2: Calculate the exact dollar amount increase in 'Google Services' operating income from 2023 to 2024 based on the table. ---
+Based on the provided tables, the operating income for Google Services for both years is:
+
+* 2023: $17.415 billion
+* 2024: $25.472 billion
+
+--- Question 3: Sum up the 'TAC' (Traffic Acquisition Costs) paid to distribution partners and the TAC paid to Google Network partners for Q1 2024. ---
+To perform the calculation, I'll need to identify the values for "TAC" (Traffic Acquisition Costs) and sum them up. Since there are multiple tables provided, I'll assume you want me to calculate the total TAC for all quarters mentioned.
+
+Here's the relevant information:
+
+* Table 1: Quarter Ended March 31, 2023
+        + Other cost of revenues: $18,891
+        + Less: severance and related charges: (461)
+        + Less: office space charges: (220)
+        + Other cost of revenues, excluding severance and related and office space charges: $18,210
+* Table 1: Quarter Ended March 31, 2024
+        + Other cost of revenues: $20,766
+        + Less: severance and related charges: (153)
+        + Less: office space charges: 0
+        + Other cost of revenues, excluding severance and related and office space charges: $20,613
+
+To calculate the total TAC, I'll add up the values for "Other cost of revenues" and subtract the values for "severance and related charges" and "office space charges". Then, I'll add up the resulting values to get the total TAC.
+
+Here are the calculations:
+
+1. Quarter Ended March 31, 2023:
+        * Other cost of revenues: $18,891
+        * Less: severance and related charges: (461)
+        * Less: office space charges: (220)
+        * Total TAC for Q1 2023: $18,210
+2. Quarter Ended March 31, 2024:
+        * Other cost of revenues: $20,766
+        * Less: severance and related charges: (153)
+        * Less: office space charges: 0
+        * Total TAC for Q1 2024: $20,613
+
+Total TAC for both quarters: $18,210 + $20,613 = $38,823
+
+Please note that this calculation is based on the assumption that you want to calculate the total TAC for all quarters mentioned. If you have any further clarification or specific requirements, please let me know and I'll be happy to assist you.
+
+
+(linyao) GeneralZ@GeneralZ-Aalto:~/Linyao$ /media/GeneralZ/Storage/ProgramFiles/miniconda3/envs/linyao/bin/python /home/GeneralZ/Linyao/synthetic_data.py
+Loaded 45 queries.
+Generating misspellings... (this may take a moment)
+
+Original: restaurants near Central Park
+Variants: ['restaraunts near Central Park', 'restaurantes near Centrl Park', 'ristaurants near Cetral Park', 'restraunts near Centrul Parke', 'resaturants near Centarl Prak']
+
+Original: shortest route to Times Square from JFK Airport
+Variants: ['shortest rout to Times Square from JKF Airport', 'shortest rute to Times Squre from JFK Airpot', 'framewrok to Times Squer from JFK Arport', 'learnin the shortest rout to Times Square from JFK Airopert', 'appplication of shortest route to Times Square from JKF']
+
+Original: petrol stations open now in downtown Los Angeles
+Variants: ['petrrol stations open now in downtown Los Angeles', 'petroleum stationz opn now in downtown los angeles', 'petrol station oppen now in down town los angles', 'petrol statins open nou in doun town los angleas', 'pittol stasion open noo in daowntwn la anses']
+
+Original: walking directions to Eiffel Tower from Louvre Museum
+Variants: ['walkin dirctions to Eiffel Tower from Louvre Musem', 'wlkng directionz to Eiffel Tower frm Louvre Muzuem', 'walikng direkshuns to Eiffel Towr frm Louvre Musium', 'wailing dirrections to Eiffel Tawer from Louvre Musium', 'walkin directions to Efelle Toowwr from Lowure Museeum']
+
+Original: nearest hiking trails in Yosemite National Park
+Variants: ['nearest hikin trails in Yosimite Natioanal Parke', 'neares hiking trail in Yosemite National Parke', 'nirst hikeing trailis in Yoemite Nationa Park', 'hikin nearest trails in yosemite national park', 'nearist hikng trails in Yoement Natiol Parke']
+
+Original: software engineer jobs in San Francisco
+Variants: ['software enginier jobs in San Franciso', 'sofware engineer jobz in S.F.', 'soft ware engineeer jobs san fran Cisco', 'engeniree softwear jobs in san fransico', 'sftwre engr jrbs in SFrnscisco']
+
+Original: remote work opportunities in marketing
+Variants: ['remorte work oppertunitiez in markiting', 'reemote wark oportunities in marketin', 'remot wurk optnootniz in mwrktng', 'remitee wrk opurtunityz in mrketng', 'remoyte werk oportunitiez in markeitng']
+
+Original: freelance graphic design projects for beginners
+Variants: ['freelacne graphic desin projects for beignners', 'free lance grapic design projetcs for begineers', 'frealnce grafik design prjoects for beginnrs', 'frilance graphc desigh prjects for beignning', 'freelans grahic design proyjcts 4 beginniurs']
+
+Original: data scientist positions at Google
+Variants: ['data sciencist positiions at google', 'daata scientist posistions at Googel', 'dati scientest positions at Googlee', 'daata sientist positons at Goggle', 'datasciense posistionns at googl']
+
+Original: entry-level mechanical engineering jobs in Austin
+Variants: ['entry-leve mechancal enginering jobz in Austen', 'entry-level mecchnical engrgineer jobs Austn', 'entr-y level mecnanical engineering jobs A-stun', 'entiree levrl mechancial engineerinng jibs Atston', 'en-try leve mechanical enginnering joobs In Autsin']
+
+Original: cheap flights from New York to London
+Variants: ['flite, cheep flites from new york to londin, machaine flites from ny to london, leearning cheap flites from nyc to lndn, fraimewrok flites from nyk to lndon']
+
+Original: nonstop flights to Tokyo from Los Angeles
+Variants: ['nonstop fligths to Tokio from Los Angles', 'nonstop flights to Tkyo from Los Angeles', 'ninstop flights to Tokyo from Los Angelis', 'ninstap flights to Tojo from Los Angels', 'no-stop flightes to Tokyo from LAngeles']
+
+Original: business class deals to Paris in December
+Variants: ['busniess clas deals to Pariss in Decembeir', 'bisness clas dials too Paree in Dicember', 'buziness klasses til Pars in Deceber', 'bussines classez to Parisse in Dezember', 'bizness klaseed til Pareys in Dekember']
+
+Original: flights under $500 to Hawaii in January
+Variants: ['flite under $500 to Hawii in Janurary', 'flites undr $450 to Hwaii in Jnuary', 'flights unda $400 to Hawiai in Jaunery', 'flghts nder $525 to Haawi in Janeray', 'flayts uner $475 to Howee in Jenuary']
+
+Original: flight schedules for Delta Airlines to Chicago
+Variants: ['flight scheduels for Delta Airliners to Chiacago', 'flite skedules 4 Delta Air Lines to Chicaga', 'flightschduels fer Delta Airlines to Chcago', 'flght scheduls for DeltA Airlins to ChiCago', 'flite shduals 4 delt airlinnes to chiacgo']
+
+Original: best laptops under $1000
+Variants: ['bezt lap tops under $1000', 'best laoptops undor $1000', 'bst laptops under $1000', 'beest laptoos under $1000', 'best lappits under $1000']
+
+Original: organic skincare products with good reviews
+Variants: ['organik skincare prodscts wth gd revews', 'orgainc skn care prodctz wth goo rewiews', 'oraganic skinecar prodicts wit good reviewes', 'orgnac skienr prudcts wth gud rewiews', 'organik skn car products wth goot revies']
+
+Original: discounted furniture for small apartments
+Variants: ['discounted furnature for small apartements', 'dscouted furniture for smal apartments', 'discouted furrniture for small apartmens', 'discounterd furinure for smale appartment', 'discounted furinure for small apeartments']
+
+Original: latest iPhone models with trade-in offers
+Variants: ['latest iPhon models with trade-in offirs', 'latist iPhone models wth trad-in offers', 'laitest IPhone moduls wth trad-in offers', 'lateset iPhons modelws wth trad-in oerfs', 'lateest IPhone modelels wth traid-in offreis']
+
+Original: top-rated noise-cancelling headphones
+Variants: ['top-rtd noise-cancelling headphones', 'topp r8ed nois-cancelling headphns', 'tope ratd nosie-celcing heddphones', 'top-rated nosie-cancling headphnnds', 'top-rateid nosie-canceling hdhdps']
+
+Original: yoga classes near me
+Variants: ['yogaa classes ner me', 'yoga clasess near mee', 'clasess yaga naer mee', 'yoga clases nr mae', 'clasees nyoga near mee']
+
+Original: gyms with personal trainers in Miami
+Variants: ["gym's with persnal trainers in Miam", 'gyms w/ persnal trainners in Miami', "gim's with persanal traneurs in Miamii", 'gims w/ persanl trainrs in Miamee', 'gimzez wit pirsnonal traeners in Maiami']
+
+Original: low-carb meal prep ideas for weight loss
+Variants: ['low-carb meil prep ideaz for weght lass', 'loo-karbmeeal preep ideeas for wieght lossse', 'law carbmeeal preepp ideaze for wight lossee', 'lwo-carb meal preap ideazs for weight loosse', 'lwocarb meeal prepe idiease for weght lost']
+
+Original: home remedies for back pain relief
+Variants: ['home remidies for back pain relife', 'remedys for back pain relief home', 'homed remedies for bak pain relif', 'back pain relife hom reemieds', "hom remidy's for back paim relief"]
+
+Original: best running shoes for flat feet
+Variants: ['best runnning shoes for flat feet', 'beest running shoes for flat feet', 'best rerunning shoes for flat feet', 'best runninng shoes for flat feet', 'bst running shoes for flat feet']
+
+Original: movies playing near me this weekend
+Variants: ['movies playnig near me this weeeknd', 'movies playing ner me this weekend', 'movies plaiying neer me this wekend', 'movies playing nir me thos weekend', 'movies playing nare me this wkeend']
+
+Original: top-rated fantasy novels of 2024
+Variants: ['top-raitd fantasy novels of 2024', 'topratid fantastik novles of 2024', 'toppu-rated fentashi novels of 2024', 'topprated fntasy novels of 2020 (note: year changed)', 'top-r8ted fantazy novls of 2024']
+
+Original: concerts in Chicago this month
+Variants: ['concerts in Chiacago this mont', 'concerrts inn Chicgao this monthe', 'cnerts in Chiicago this moonth', 'concerts in Chigaco this monthh', 'consrtts in Chcago this monet']
+
+Original: free streaming platforms for documentaries
+Variants: ['free straming platfoms for documantaries', 'fre streemng plattforms 4 dokuementaries', 'free strimng platfroms fyr dokumentaris', 'frre streming platfoms fer dokumenatris', 'fre streeming platfoerms for doocumentery']
+
+Original: latest episodes of Stranger Things
+Variants: ['latest epizodes of Strangir Things', 'lattest episods of Stranger Thingz', 'laitest epsiodes of Strainger Thingys', 'lateist epissds of Stanger Things', 'latet epizods of Strangare Things']
+
+Original: best hotels in Bali for families
+Variants: ['best hoteles in Bali for famileis', 'best hotelz in Bali for familys', 'best hotels i Bali for familees', 'beast hotals in Bali for familes', "best hotalis in Bali for family's"]
+
+Original: top-rated attractions in Rome
+Variants: ['topratd atttractions in Rome', 'topprated atrractions inn Romme', 'top ratrd attrctns n Roem', 'top raitd attractions iin Roma', 'tipe-rated atrractionz in Rom']
+
+Original: all-inclusive resorts in the Caribbean
+Variants: ['al-inclusiv resorts in th Caribbean', 'all-inclusive resortsin the Caribean', 'aall-inclusive resorts in thee Caribbean', 'appl-inclusive resorts in the Carrabbean', 'alll-inclusive resrots in teh Carribean']
+
+Original: visa requirements for US citizens visiting Canada
+Variants: ['visa requeirments for US citsiens visitng Caneda', 'visas requirments for US citiizens visiting Canda', 'viza requirements for US citizens visting Canada', 'visa reqirements for US ciitizens vising Cannada', "vissa requerements for US citzen's visiting Candia"]
+
+Original: weather forecast for Cancun next week
+Variants: ['weather fcast for Cun next wlk', 'weather fcast for Canuc neext weeek', 'fether forecast for Cancu next wek', 'weeather fcast for Cancun nxt wk', 'wethur fcast for Cancun next week']
+
+Original: history of the Great Wall of China
+Variants: ['histery of the Greet Wall of China', 'historry of the Grete Waw of Chinna', 'histroy of th Great Wal of Chyna', 'hisotry of the Grat Wall of Cina', 'hystory of the Graet Wal of Chiina']
+
+Original: how to solve quadratic equations
+Variants: ['how to slove qudric equations', 'how to solv qaudratic ecuations', 'qudridic equtions solve', 'learn to slove quadreatics', 'frame work to slove quatrics']
+
+Original: current events in the Middle East
+Variants: ['cuurent events in teh Middle East', 'currnt events in the Midle East', 'curreent events in the Middle Est', 'currnet events in teh Middel East', 'current evennts in the Middle East']
+
+Original: free online courses for Python programming
+Variants: ['free onlin corsis for pythn prgramming', 'free online coureses for pyton programming', 'fre online coursse for python programing', 'free online courses for pthon progrmaming', 'fr online coursess for pythin progamming']
+
+Original: most famous paintings by Van Gogh
+Variants: ['most famus painitings by Van Gogh', 'mashiest paintings by Van Gogh', 'moast famous paintins by Van Gogh', 'appriciateed paintings by Van Gogh', "mos't famous paining's by Van Gogh"]
+
+Original: plumbers near me with good reviews
+Variants: ['plumers ner me wth gd reviws', 'plmbers nr m wth gud rewiews', 'plumberes neir me wth goo rewievs', 'plumbirs near me wth good rewies', 'plumbarz nere mee wth goo reveiws']
+
+Original: 24-hour pharmacies in Boston
+Variants: ['24-hr pharmacies in Boston', '24 hour pharmacies in Bostin', '24/hr pharmacys in Boston', "24-h pharmacy's in Bosston", '24hour pharmacies in Boston']
+
+Original: car repair shops in San Diego
+Variants: ['car reepair shopz in San Diegeo', 'carr reapir shops in San Deegeyo', 'ccar rrepair shops in San Digeo', 'cars repaire shopis in San Diegoa', 'caar repair shoops in Sandiego']
+
+Original: affordable wedding photographers in New York
+Variants: ['afordable wdding phottographers in New Yrok', 'affordable weeding photogpraphers in Ne York City', 'affordale weddings photograpers in new york city', 'afforable wedding phottos in ny', 'affrodable wedding photograpes in New Yok']
+
+Original: dog groomers open on Sundays
+Variants: ['dog grimeurs on sunday', 'dgromers open on sundays', 'doog groomers opn sundaes', 'dogg roomers opn sunnday', "groomer's opn sunday"]
+
+Done! Results saved to 'synthetic_queries_output.csv'
